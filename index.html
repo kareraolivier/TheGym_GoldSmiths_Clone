@@ -13,7 +13,7 @@
 </head>
 
 <body class="m-0 p-0">
-    <nav class="w-full fixed bg-white">
+    <nav class="w-full fixed bg-white z-50">
         <div class="flex justify-around p-4 lg:px-20 text-gray-500">
             <div class="flex justify-between items-center lg:gap-4 w-full">
                 <img class="w-28 md:w-48" src="./asset/logo (1).svg" alt="">
@@ -55,9 +55,9 @@
 
         </div>
     </nav>
-    <div class="bg-[#F6F7F7] pt-14">
+    <div class="bg-[#F6F7F7] pt-14 pb-6">
         <div class="bg-[#F6F7F7]">
-            <div class="h-1/2">
+            <div class="h-1/2 md:hidden">
                 <div class="h-1/2 border ">
                     <img class="h-10 absolute right-[25%] left-[25%] top-[25%]" src="./asset/CLEARED[79].svg" alt=""
                         srcset="">
@@ -69,76 +69,50 @@
                         style="background-image: url(./asset/clearing-homepage-1-compressed.jpeg); background-size:contain;  background-position: center; background-repeat: no-repeat;">
                     </div>
                 </div>
-                <div class="mx-4 my-10 bg-white ">
-                    <hr class="w-12 h-2 mt-0 bg-[#FED100] m-auto">
-                    <div class="py-8 px-4">
-                        <h1 class="text-center font-semibold py-2">Golden smith university</h1>
-                        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-                            error quam ipsum perspiciatis
-                            maiores at doloremque libero necessitatibus ea quis sed dicta illum, tempore sapiente! In
-                            maxime
-                            dolorem quaerat ratione.</p>
-                    </div>
-                    <div class="py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
-                        <p class="flex justify-between text-blue-600">
-                            About Gordensmith
-                        </p>
-                        <img src="./asset/icon-more-666.svg" alt="">
-                    </div>
+                <div class="md:flex justify-end">
+                    <div class="mx-4 my-10 bg-white md:w-[240px] ">
+                        <hr class="w-12 h-2 mt-0 bg-[#FED100] m-auto">
+                        <div class="py-8 px-4">
+                            <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+                                error quam ipsum perspiciatis
+                                maiores at doloremque libero necessitatibus ea quis sed dicta illum, tempore sapiente!
+                                In
+                                maxime
+                                dolorem quaerat ratione.</p>
+                        </div>
+                        <div class="py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                            <p class="flex justify-between text-blue-600">
+                                About Gordensmith
+                            </p>
+                            <img src="./asset/icon-more-666.svg" alt="">
+                        </div>
 
 
+                    </div>
                 </div>
+
 
             </div>
+
+            <div class="h-screen hidden md:block"
+                style="background-image: url(./asset/clearing-homepage-1-compressed.jpeg); background-size:contain; background-repeat: no-repeat;">
+
+            </div>
+            <img class="h-14 absolute right-[40%] top-[38%]" src="./asset/CLEARED[79].svg" alt="" srcset="">
+            <p
+                class="h-10 absolute w-52 right-[40%] top-[48%] bg-[#FED100] text-sm font-semibold pt-2 pl-2 border-2 border-black">
+                Apply now through Clearing</p>
             <!-- second divs -->
-            <div class="grid gap-2 items-center justify-center md:grid-cols-2 mt-56 px-4">
-                <div class="grid h-[32rem]">
-        
-                    <div class=" bottom-1">
-                        <img src="./asset//homepage_hero_march_23.jpeg" alt="" srcset="">
-                    </div>
-                    <div class="absolute bg-white mt-56 mx-8 z-10">
-                        <div class="py-8 px-4">
-                            <h1 class="text-center font-semibold py-2">Golden smith university</h1>
-                            <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-                                error quam ipsum perspiciatis
-                                maiores at doloremque libero necessitatibus ea quis sed dicta illum.</p>
-                        </div>
-                        <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
-                            <p class="flex justify-between text-blue-600">
-                                About Gordensmith
-                            </p>
-                            <img src="./asset/icon-more-666.svg" alt="">
-                        </div>
+            <div class="grid gap-2 items-center justify-center md:grid-cols-2 mt-60 px-4 md:hidden">
+                <div class="grid h-[32rem] md:w-1/2">
+                    <div>
 
-                    </div>
-
-                </div>
-                <div>
-                    <div class="bg-white mt-10 mx-2 my-4">
-                        <div class="py-8 px-4">
-                            <h1 class="text-center font-semibold py-2">Golden smith university</h1>
-                            <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-                                error quam ipsum perspiciatis
-                                maiores at doloremque libero necessitatibus ea quis sed dicta illum.</p>
-                        </div>
-                        <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
-                            <p class="flex justify-between text-blue-600">
-                                About Gordensmith
-                            </p>
-                            <img src="./asset/icon-more-666.svg" alt="">
-                        </div>
-
-                    </div>
-                    <div class="grid h-[32rem]">
-        
-                        <div class=" bottom-1">
-                            <img src="./asset//homepage_hero_march_23.jpeg" alt="" srcset="">
-                        </div>
-                        <div class="absolute bg-white mt-56 mx-8 z-10">
+                        <div class="absolute bg-white mt-48 mx-8">
                             <div class="py-8 px-4">
                                 <h1 class="text-center font-semibold py-2">Golden smith university</h1>
-                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Voluptates
                                     error quam ipsum perspiciatis
                                     maiores at doloremque libero necessitatibus ea quis sed dicta illum.</p>
                             </div>
@@ -148,20 +122,350 @@
                                 </p>
                                 <img src="./asset/icon-more-666.svg" alt="">
                             </div>
-    
+
                         </div>
-    
+                        <div class="bottom-1 w-full  -z-10">
+                            <img src="./asset//homepage_hero_march_23.jpeg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white mt-10 mx-2 my-4 flex justify-start">
+                        <div>
+                            <div class="py-8 px-4 w-[200px]">
+                                <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Voluptates
+                                    error quam ipsum perspiciatis
+                                    maiores at doloremque libero necessitatibus ea quis sed dicta illum.</p>
+                            </div>
+                            <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                                <p class="flex justify-between text-blue-600">
+                                    About Gordensmith
+                                </p>
+                                <img src="./asset/icon-more-666.svg" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="grid h-[32rem]">
+
+                        <div class=" bottom-1">
+                            <img src="./asset//homepage_hero_march_23.jpeg" alt="" srcset="">
+                        </div>
+                        <div class="absolute bg-white mt-56 mx-8 z-10">
+                            <div class="py-8 px-4">
+                                <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Voluptates
+                                    error quam ipsum perspiciatis
+                                    maiores at doloremque libero necessitatibus ea quis sed dicta illum.</p>
+                            </div>
+                            <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                                <p class="flex justify-between text-blue-600">
+                                    About Gordensmith
+                                </p>
+                                <img src="./asset/icon-more-666.svg" alt="">
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
 
             </div>
 
+            <div class="md:grid gap-8 grid-cols-2 mx-16 hidden">
+                <div class="grid h-[32rem]">
+                    <div >
+                        <div class="absolute bg-white mt-72 ml-[8rem] mx-8 w-1/4">
+                            <div class="py-8 px-4">
+                                <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Voluptates.</p>
+                            </div>
+                            <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                                <p class="flex justify-between text-blue-600">
+                                    About Gordensmith
+                                </p>
+                                <img src="./asset/icon-more-666.svg" alt="">
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <img src="./asset//homepage_hero_march_23.jpeg" alt="" srcset="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="grid gap-4 grid-rows-[40%,auto]">
+                    <div class=" bg-white w-[20rem]">
+                        <div class="py-8 px-4">
+                            <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                            <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Voluptates.</p>
+                        </div>
+                        <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                            <p class="flex justify-between text-blue-600">
+                                About Gordensmith
+                            </p>
+                            <img src="./asset/icon-more-666.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="absolute bg-white mr-0 mt-32 mx-8 w-2/5">
+                            <div class="py-8 px-4">
+                                <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Voluptates.</p>
+                            </div>
+                            <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                                <p class="flex justify-between text-blue-600">
+                                    About Gordensmith
+                                </p>
+                                <img src="./asset/icon-more-666.svg" alt="">
+                            </div>
+
+                        </div>
+                        <div class="">
+                            <img src="./asset//homepage_hero_march_23.jpeg" alt="" srcset="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>1</div>
+            </div>
+
+        </div>
+
+        <!--cvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv third divs ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+
+
+        <!--cvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv third divs ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+
+
+        <div class='my-6 mx-2 md:mx-8 '>
+            <div class="flex gap-4 font-semibold">
+                <img src="./asset/icon-search.svg" alt="" srcset="">search
+            </div>
+            <div class="flex ">
+                <section class="flex gap-3">
+                    <div> <input type="radio" />
+                        Degrees</div>
+                    <div><input type="radio" />Short Courses</div>
+                    <div><input type="radio" />Website</div>
+                </section>
+            </div>
+            <div class="flex justify-center">
+                <input class="w-full p-2 focus:no-underline border-black border" type="text">
+                <button class="py-2 px-3 bg-yellow-500">search</button>
+            </div>
+        </div>
+
+
+        <div class="grid grid-rows-1 gap-3">
+            <div class="grid grid-cols-1 lg:grid-cols-2 lg:px-8">
+
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                    <div class=" px-2">
+                        <img src="./asset/homepage_hero_march_23.jpeg" alt="" srcset="">
+                        <div class="bg-white">
+                            <div class="py-8 px-4">
+                                <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Voluptates.</p>
+                            </div>
+                            <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                                <p class="flex justify-between text-blue-600">
+                                    About Gordensmith
+                                </p>
+                                <img src="./asset/icon-more-666.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" px-2">
+                        <img src="./asset/homepage_hero_march_23.jpeg" alt="" srcset="">
+                        <div class="bg-white">
+                            <div class="py-8 px-4">
+                                <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Voluptates.</p>
+                            </div>
+                            <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                                <p class="flex justify-between text-blue-600">
+                                    About Gordensmith
+                                </p>
+                                <img src="./asset/icon-more-666.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" px-2">
+                    <img src="./asset/homepage_hero_march_23.jpeg" alt="" srcset="">
+                    <div class="bg-white">
+                        <div class="py-8 px-4">
+                            <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                            <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Voluptates
+                                error quam ipsum perspiciatis
+                                maiores at doloremque libero necessitatibus ea quis sed dicta illum.</p>
+                        </div>
+                        <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                            <p class="flex justify-between text-blue-600">
+                                About Gordensmith
+                            </p>
+                            <img src="./asset/icon-more-666.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2  lg:px-8">
+                <div class=" px-2">
+                    <img src="./asset/homepage_hero_march_23.jpeg" alt="" srcset="">
+                    <div class="bg-white">
+                        <div class="py-8 px-4">
+                            <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                            <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Voluptates
+                                error quam ipsum perspiciatis
+                                maiores at doloremque libero necessitatibus ea quis sed dicta illum.</p>
+                        </div>
+                        <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                            <p class="flex justify-between text-blue-600">
+                                About Gordensmith
+                            </p>
+                            <img src="./asset/icon-more-666.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                    <div class=" px-2">
+                        <img src="./asset/homepage_hero_march_23.jpeg" alt="" srcset="">
+                        <div class="bg-white">
+                            <div class="py-8 px-4">
+                                <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Voluptates
+                                    error quam ipsum perspiciatis
+                                    maiores at doloremque libero necessitatibus ea quis sed dicta illum.</p>
+                            </div>
+                            <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                                <p class="flex justify-between text-blue-600">
+                                    About Gordensmith
+                                </p>
+                                <img src="./asset/icon-more-666.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" px-2">
+                        <img src="./asset/homepage_hero_march_23.jpeg" alt="" srcset="">
+                        <div class="bg-white">
+                            <div class="py-8 px-4">
+                                <h1 class="text-center font-semibold py-2">Golden smith university</h1>
+                                <p class="text-center">karera Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Voluptates
+                                    error quam ipsum perspiciatis
+                                    maiores at doloremque libero necessitatibus ea quis sed dicta illum.</p>
+                            </div>
+                            <div class=" py-4 px-4 flex justify-between items-center border-blue-600 border-t-2">
+                                <p class="flex justify-between text-blue-600">
+                                    About Gordensmith
+                                </p>
+                                <img src="./asset/icon-more-666.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
     </div>
+    <div class="grid grid-cols-1 gap-2 lg:grid-cols-2 px-2 py-5">
+
+        <div class=" flex justify-center">
+            <div>
+                <p class="text-center text-xl font-bold py-10">News</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <div>
+                        <img src="./asset/IFUpic.jpeg" alt="" srcset="">
+                        <h1 class="text-blue-600 text-center font-semibold">In living memory exhibition</h1>
+                        <h1 class="text-gray-600 text-center">In living memory exhibition</h1>
+                        <p class="text-gray-600 text-center">18 Jul 2023, 9:00am ‐ 9:00pm</p>
+                    </div>
+                    <div>
+                        <img src="./asset/IFUpic.jpeg" alt="" srcset="">
+                        <h1 class="text-blue-600 text-center font-semibold">In living memory exhibition</h1>
+                        <h1 class="text-gray-600 text-center">In living memory exhibition</h1>
+                        <p class="text-gray-600 text-center">18 Jul 2023, 9:00am ‐ 9:00pm</p>
+                    </div>
+                </div>
+            </div>
 
 
+        </div>
+        <div class=" flex justify-center">
+            <div>
+                <p class="text-center text-xl font-bold py-10">Event</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <div>
+                        <img src="./asset/IFUpic.jpeg" alt="" srcset="">
+                        <h1 class="text-blue-600 text-center font-semibold">In living memory exhibition</h1>
+                        <h1 class="text-gray-600 text-center">In living memory exhibition</h1>
+                        <p class="text-gray-600 text-center">18 Jul 2023, 9:00am ‐ 9:00pm</p>
+                    </div>
+                    <div>
+                        <img src="./asset/IFUpic.jpeg" alt="" srcset="">
+                        <h1 class="text-blue-600 text-center font-semibold">In living memory exhibition</h1>
+                        <h1 class="text-gray-600 text-center">In living memory exhibition</h1>
+                        <p class="text-gray-600 text-center">18 Jul 2023, 9:00am ‐ 9:00pm</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="bg-[#333333]  text-white  py-10 px-2 lg:px-8">
+        <div class="grid grid-cols-2 lg:grid-cols-[auto,auto,40%] gap-2">
+            <div class="text-sm">
+                <p>About us</p>
+                <p>About us</p>
+                <p>About us</p>
+            </div>
+            <div class="text-sm">
+                <p>Copyright and disclaimer</p>
+                <p>Copyright and disclaimer</p>
+                <p>Copyright and disclaimer</p>
+                <p>Copyright and disclaimer</p>
+
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+                <div>
+                    <p class="text-sm">Admin login</p>
+                </div>
+                <div>
+                    <ul class="flex justify-around items-center text-sm">
+                        <li>tw</li>
+                        <li>tw</li>
+                        <li>tw</li>
+                        <li>tw</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex justify-between items-center py-4">
+            <p class="text-xs">© 2023 Goldsmiths, University of London</p>
+            <p class="text-xs">Back to top</p>
+        </div>
+
+    </div>
 </body>
 
 </html>
