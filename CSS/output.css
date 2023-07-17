@@ -782,6 +782,10 @@ video {
   margin-top: 20rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -1048,6 +1052,10 @@ video {
 
 .grid-rows-\[40\%\2c auto\] {
   grid-template-rows: 40% auto;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -1362,6 +1370,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
   .lg\:-z-40 {
     z-index: -40;
   }
